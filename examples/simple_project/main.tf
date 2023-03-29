@@ -26,7 +26,7 @@ module "test-vpc-module" {
   version      = "~> 6.0"
   project_id   = var.project_id # Replace this with your project ID in quotes
   network_name = "my-custom-mode-network"
-  mtu          = 1460
+  mtu          = 1920
 
   subnets = [
     {
